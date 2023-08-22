@@ -6,7 +6,9 @@
     "dev": "turbo run dev --no-cache --continue",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
     "lint": "turbo run lint",
-    "test": "turbo run test"
+    "test": "turbo run test",
+    "add:workspace": "turbo gen workspace",
+    "copy:workspace": "turbo gen workspace --copy"
   },
   "devDependencies": {
     "eslint": "^8.4.1",
