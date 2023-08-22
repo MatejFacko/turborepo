@@ -5,6 +5,7 @@
       "outputs": [
         "build/**",
         "dist/**",
+        "type-check",
         "storybook-static/**"
       ],
       "dependsOn": [
@@ -24,6 +25,9 @@
     },
     "clean": {
       "cache": false
+    },
+    "type-check": {
+      "outputs": []
     }
   }
 }
